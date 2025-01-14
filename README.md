@@ -18,14 +18,14 @@ code for training and applying ML model to predict cyclization sites in head-to-
 ```bash
 conda create -n cyclopeptide python==3.7.1
 conda activate cyclopeptide
-pip install numpy==1.21.5
-pip install pandas==1.3.5
-pip install scikit-learn==1.0.2
-pip install tensorflow==2.8.2
-pip install xgboost==1.5.1
-pip install ipykernel
-python -m ipykernel install --name cyclopeptide
+conda install numpy==1.21.5
+conda install pandas==1.3.5
+conda install scikit-learn==1.0.2
+conda install tensorflow==2.8.2
+conda install xgboost==1.5.1
+conda install ipykernel
 ```
+If using `pip install`, make sure to install `joblib==1.1.1`. If a different version is installed, it needs to be uninstalled and reinstalled.
 
 # Usage
 
