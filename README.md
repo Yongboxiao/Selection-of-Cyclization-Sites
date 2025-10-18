@@ -3,11 +3,13 @@ code for training and applying ML model to predict cyclization sites in head-to-
 
 ## Files
 
+`Model Selection.ipynb` : iPython notebook for model selection
+
 `Model training.ipynb` : iPython notebook for training
 
 `Prediction.ipynb`: iPython notebook for predicting unknown sequences
 
-`model_307.pkl`:  best trained model for predicting 
+`model307.pkl`:  best trained model for predicting 
 
 `scaler307.pkl`:  unified normalization method 
 
@@ -15,11 +17,13 @@ code for training and applying ML model to predict cyclization sites in head-to-
 
 `Random Cyclopeptide Generator`:  iPython notebook for randomly generation cyclic peptide sequences for experimental validation
 
+`Similarity.ipynb`: iPython notebook for calcualting sequence similarity
+
 ## CSV Files
 
 `dataset.csv` : 306 peptide dataset for training
 
-`experiment.csv`: 43 sequences for experimental validation
+`experiment.csv`: 74 sequences for experimental validation
 
 `targets.csv`: dataset of cyclic peptide sequences designed based on the antibody complementarity-determining regions corresponding to 7 disease targets
 
